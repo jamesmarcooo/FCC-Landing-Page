@@ -21,6 +21,7 @@ section h2 {
 
 .container {
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: center;
   max-width: 700px;
   margin: 0 auto;
@@ -47,10 +48,12 @@ section h2 {
 /*Nav and Header*/
 nav {
   background-color: #ffdb15;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
   display: flex;
   justify-content: center;
   padding: 13px;
   position: fixed;
+  z-index: 3;
   top: 0;
   left: 0;
   right: 0;
@@ -109,6 +112,7 @@ nav {
 /*Video*/
 iframe {
   margin-bottom: 40px;
+  max-width: 90%;
 }
 
 /*Join Section*/
@@ -123,6 +127,7 @@ form {
 form .flex {
   display: flex;
   /* justify-content: center; */
+  flex-wrap: wrap;
 }
 
 form input {
@@ -151,4 +156,35 @@ footer {
   padding: 10px;
   text-align: center;
   font-size: 10px;
+}
+
+@media (max-width: 480px) {
+  .header-left,
+  .header-right {
+    width: 100%;
+  }
+
+  .header-right {
+    order: 0;
+  }
+  .header-left {
+    order: 1;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .header-left h1 {
+    display: none;
+  }
+
+  .feature {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .flex input,
+  .flex .btn-ghost {
+    width: 100%;
+    margin: 10px;
+  }
 }
