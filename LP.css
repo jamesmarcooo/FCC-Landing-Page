@@ -130,7 +130,7 @@ form .flex {
   flex-wrap: wrap;
 }
 
-form input {
+form input[type="email"] {
   border-radius: 5px;
   border: 0;
   color: black;
@@ -182,8 +182,7 @@ footer {
     width: 100%;
   }
 
-  .flex input,
-  .flex .btn-ghost {
+  .flex input {
     width: 100%;
     margin: 10px;
   }
