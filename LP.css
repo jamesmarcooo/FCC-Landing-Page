@@ -13,6 +13,28 @@ img {
   max-width: 100%;
 }
 
+.container {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #ffdb15;
+  color: black;
+  box-shadow: 2px 2px 2px #e6c301;
+  border-radius: 5px;
+  padding: 12px 15px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn:active {
+  box-shadow: 0 0 0 #e6c301;
+  transform: translate(2px, 2px);
+}
+
 nav {
   background-color: #ffdb15;
   display: flex;
