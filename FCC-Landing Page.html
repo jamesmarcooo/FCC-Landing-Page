@@ -6,12 +6,11 @@
     <body>
         <header id="header">
             <!--Internal Navigation-->
-            <nav>
+            <nav id="nav-bar">
                 <a href="#about" class="nav-link">About</a>
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#video" class="nav-link">Video</a>
                 <a href="#join" class="nav-link">Join</a>
-
             </nav>
 
 
@@ -53,21 +52,21 @@
         </section>
 
         <!--Video-->
-        <section class="video">
+        <section class="join">
             <h2>Video</h2>
             <div class="container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/TNzCfgwIDCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TNzCfgwIDCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
 
         <!--Join-->
        <section id="join" class="bg-yellow">
             <div class="container">
-                <form>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <h2>Subscribe and Stay Updated with Us!</h2>
                     <div class="flex">
-                        <input type="email" placeholder="Enter your email...">
-                        <button class="btn btn-ghost">Submit</button>
+                        <input type="email" id="submit" id="email" placeholder="Enter your email...">
+                        <button id="submit" class="btn btn-ghost">Submit</button>
                     </div>
                 </form>
             </div>
