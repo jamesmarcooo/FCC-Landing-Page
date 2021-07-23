@@ -107,17 +107,22 @@ nav {
   background-color: #ffdb15;
 }
 
+form {
+  margin-bottom: 30px;
+}
+
 form .flex {
   display: flex;
 }
 
 form input {
-  color: black;
-  box-shadow: 2px 2px 2px #e6c301;
   border-radius: 5px;
-  padding: 12px 25px;
+  border: 0;
+  color: black;
   display: inline-block;
-  width: 100%;
+  font-size: 14px;
+  padding: 10px 25px;
+  margin-right: 10px;
   flex: 1;
 }
 
