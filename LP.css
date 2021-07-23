@@ -65,15 +65,26 @@ nav {
 
 /*Features Section*/
 .feature {
-  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.1);
+  background-color: rgb(255, 219, 21, 0.8);
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.2);
   width: 33.33%;
   text-align: center;
+  margin: 20px 1.66%;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .feature h2 {
   font-size: 20px;
+  margin-top: 5px;
 }
 
 .feature p {
   font-size: 12px;
+  line-height: 24px;
+}
+
+.feature i {
+  color: #ffdb15;
+  font-size: 30px;
 }
