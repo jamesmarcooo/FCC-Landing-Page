@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #ffdb15;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
