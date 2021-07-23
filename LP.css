@@ -36,6 +36,7 @@ section h2 {
   text-decoration: none;
   position: relative;
   transition: all 0.09s ease;
+  font-size: 13px;
 }
 
 .btn:active {
@@ -101,10 +102,40 @@ nav {
   font-size: 30px;
 }
 
+/*Join Section*/
+.bg-yellow {
+  background-color: #ffdb15;
+}
+
+form .flex {
+  display: flex;
+}
+
+form input {
+  color: black;
+  box-shadow: 2px 2px 2px #e6c301;
+  border-radius: 5px;
+  padding: 12px 25px;
+  display: inline-block;
+  width: 100%;
+  flex: 1;
+}
+
+.btn-ghost {
+  box-shadow: none;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.btn-ghost:active {
+}
+
 /*Footer*/
 footer {
-  background-color: #ffdb15;
-  margin-top: 20px;
+  background-color: black;
+  color: white;
+  /* margin-top: 20px; */
   padding: 10px;
   text-align: center;
   font-size: 10px;
