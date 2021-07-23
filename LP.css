@@ -1,14 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:400,600&display=swap");
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 nav {
   background-color: #ffdb15;
   display: flex;
   justify-content: center;
+  padding: 13px;
 }
 
 .nav-link {
   color: black;
   text-decoration: none;
+  margin: 0 15px;
 }
